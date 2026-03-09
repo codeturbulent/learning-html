@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Html Form</title>
+  </head>
+  <body>
+    <form action="FILE1.html" method="post" enctype="" target="">
+      <!-- novalidate="no" -->
+      <fieldset>
+        <legend>regestration form</legend>
+
+        <label>UserName:</label
+        ><input
+          type="Text"
+          name="UserName"
+          autofocus
+          placeholder="Username"
+          size="2"
+        />
+        <br /><br />
+
+        <label>Real Name:</label
+        ><input type="Text" name="Name" placeholder="Real Name" /> <br /><br />
+
+        <label>Password:</label
+        ><input type="Password" name="Password" placeholder="Password" />
+        <br /><br />
+
+        <label>Email:</label
+        ><input type="Email" name="Email" placeholder="Email" /> <br /><br />
+
+        <label>Gender:</label
+        ><input type="radio" name="gender" value="male" /> male
+        <input type="radio" name="gender" value="female" /> female<br />
+        <br />
+
+        <input type="checkbox" name="sports" value="cricket" /> cricket
+        <br /><br />
+        <label>Address:</label><textarea>himanshu</textarea>
+
+        <br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+        <input type="file" name="file" />
+        <br /><br />
+        <input type="image" alt="submit" src="gh.png" width="80" />
+        <br /><br />
+        <label>color</label>
+
+        <input type="color" name="color" />
+        <br />
+        <label>DOB</label>
+        <input type="date" name="date" /><br />
+        <label>date time</label>
+        <input type="datetime-local" name="month" />
+        <br /><br />
+        <label>month</label>]
+        <input type="month" name="month" />
+        <label>NUMBER</label>
+        <input type="number" name="mobile no" />
+        <br /><br />]
+        <label>url</label>
+        <input type="url" name="url" />
+        <br />
+        <label>week</label>
+        <input type="week" name="week" />
+        <br /><label>search </label>
+        <input type="search" name="search" />
+        <br /><label>ph no </label>
+        <input
+          type="tel"
+          name="tel"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          value="111-111-1111"
+        />
+      </fieldset>
+      <br /><br />
+      <label>name</label>
+      <input type="text" name="firstname" required />
+    </form>
+  </body>
+</html>

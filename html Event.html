@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Html Event</title>
+	<script type="text/javascript">
+		function changebackground(){
+			document.body.style.background = "yellow";
+		}
+		function change(){
+			document.body.style.background = "green"
+		} 
+		function change2 () {
+			document.body.style.border = "5px solid"
+		}
+		function change2() {
+			alert(); 
+		}
+		function kd() {
+			document.body.style.border = "10px solid"
+		}
+		function kp() {
+			document.body.style.border = "111px solid"
+		}
+		function ku() {
+			document.body.style.background = "blue"
+		}
+	</script>
+</head>
+<body>
+	<form  onreset="change2 ()" onsubmit="change2() ">
+		<label>first name </label><input type="text" name="username" onblur="changebackground()" >
+		<label>first name </label><input type="text" name="username" onchange="change()" >
+		<label>first name </label><input type="text" name="username" oninput="change2 ()">
+		<label>first name </label><input type="text" name="username" onfocus="change2 ()" >
+		<label>email </label><input type="email" name="email" oninvalid="change2 ()">
+		<label>reset  </label><input type="reset" value="reset" onreset="change2 ()">
+		<label>submit</label>
+		<input type="submit" value="submit">
+	
+	</form>
+
+	<br>
+	<form>
+		<label> first name </label>
+		<input type="text" name="user name " value="user namew" onkeydown="kd()" onkeypress="kp()" onkeyup="kd()" onkeyup="ku()" > 
+		<input type="text" name="user name " value="user namew" onkeydown="kd()" >
+		<input type="text" name="user name " value="user namew" onkeypress="kp()" >
+		<input type="text" name="user name " value="user namew" onkeyup="ku()">
+	</form>
+	<form>
+		<label>on muser</label><input type="text" name="1111" >
+
+	</form>
+	<audio controls>
+	<source src="BAD GUY.mp3" type="audio/mp3">
+	</audio>
+
+
+</body>
+</html>

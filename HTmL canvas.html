@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> CAnvas Html</title>
+
+	</head>
+	<body>
+
+		<canvas id="mycanvas" width="300" height="100" style="border:2px solid ;" >
+			Your Brouser Does Not Sopport
+			
+		</canvas>
+
+		<script>
+			var c = document.getElementByid('mycanvas')
+			var ctx = c.getcontext('2d')
+			ctx.fillstyle = '#ff000';
+			ctx.fillrect(0,0,200,100)
+		</script>
+ 
+
+	</body>
+</html>
